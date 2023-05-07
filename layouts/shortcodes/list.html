@@ -2,23 +2,21 @@
 <ul class="ul">
   {{- range $param:=(index .Site.Data (.Get 1)) }}
   <li class="li">
-      <div class="div">
-        <p class="p">{{ .period }}</p>
-            <h3 class="h3">
-                <span>
-                  {{if isset $param "link"}}
-                  <a href="{{ .link | safeURL }}" target="_blank" rel="nofollow">{{ .name | safeHTML }}</a>
-                  {{ else }}
-                  {{ .name }}
-                  {{ end }}
-                </span>
-            </h3>
-        {{ if `.skills` }}
-        <p class="p">{{ .skills }}</p>
-        {{ else }}
-        <p class="p"></p>
-        {{ end }}
-      </div>
+      <p class="p">{{ .period }}</p>
+          <h3 class="h3">
+              <span>
+                {{if isset $param "link"}}
+                <a href="{{ .link | safeURL }}" target="_blank" rel="nofollow">{{ .name | safeHTML }}</a>
+                {{ else }}
+                {{ .name }}
+                {{ end }}
+              </span>
+          </h3>
+      {{ if `.skills` }}
+      <p class="p">{{ .skills }}</p>
+      {{ else }}
+      <p class="p"></p>
+      {{ end }}
   </li>
   {{- end }}
 </ul>
