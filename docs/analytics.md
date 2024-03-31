@@ -5,6 +5,8 @@
 *in alphabetic order*
 
 * [Application Insights](https://azure.com/) - [documentation](/docs/analytics/applicationinsights.md)
+* [Baidu Analytics](https://tongji.baidu.com/) - [documentation](/docs/analytics/baidu.md)
+* [Clicky](https://clicky.com/) - [documentation](/docs/analytics/clicky.md)
 * [Cloudflare](https://www.cloudflare.com/analytics/) - [documentation](/docs/analytics/cloudflare.md)
 * [Google Analytics](https://developers.google.com/analytics) - [documentation](/docs/analytics/googleanalytics.md)
 * [Google Tag Manager](https://developers.google.com/tag-manager) - [documentation](/docs/analytics/googletagmanager.md)
